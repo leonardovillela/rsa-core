@@ -1,13 +1,13 @@
-package br.com.villela.rsacoreapi.key;
+package br.com.villela.rsacore.key;
 
 import java.math.BigInteger;
 
-public class PublicKey {
+public class Key {
 
     private BigInteger exponent;
     private BigInteger productPrimesOfKeys;
 
-    public PublicKey(BigInteger exponent, BigInteger productPrimesOfKeys) {
+    public Key(BigInteger exponent, BigInteger productPrimesOfKeys) {
         this.exponent = exponent;
         this.productPrimesOfKeys = productPrimesOfKeys;
     }
